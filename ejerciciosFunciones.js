@@ -34,7 +34,7 @@ function voltaje (R, I) {
 }
 
 function volumenEsfera (radio) {
-    return (4/3) * (radio * radio) * Math.PI;
+    return (4/3) * (radio * radio * radio) * Math.PI;
 }
 
 const perimetroCirculo1 = (radio) => (radio * radio ) * Math.PI
@@ -45,4 +45,4 @@ const numeroAlCuadrado1 = (num) => num * num
 
 const voltaje1 = (R, I) => R * I
 
-const volumenEsfera1 = (radio) => (4/3) * (radio * radio) * Math.PI
+const volumenEsfera1 = (radio) => (4/3) * (radio * radio * radio) * Math.PI
